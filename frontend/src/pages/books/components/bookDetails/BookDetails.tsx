@@ -31,7 +31,7 @@ export default function BookDetails() {
   }, [res, bookDetails]);
 
   return (
-    <Container bg={"white"} p={20} style={{ borderRadius: "10px" }}>
+    <Container bg={"white"} p={20} style={{ borderRadius: "10px" }} w={980}>
       {bookDetails && (
         <Grid>
           <GridCol span={4} style={{ borderRight: "1px solid #e7ebe9" }}>
